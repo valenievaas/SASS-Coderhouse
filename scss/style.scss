@@ -1,3 +1,7 @@
+$color1:#05183c;
+$color2:#101217;
+$color3:#444444;
+
 * {
     padding: 0;
     margin: 0;
@@ -7,7 +11,7 @@
 // modifico header
 header {
     .navColor {
-        background-color: #05183c;
+        background-color: $color1;
     }
 }
     // fin header
@@ -39,12 +43,12 @@ header {
     section {
 
         .bgColor {
-            background-color: #101217;
+            background-color: $color2;
         }
 
         h1 {
             text-align: center;
-            text-shadow: 1px 1px 2px #444444;
+            text-shadow: 1px 1px 2px $color3;
 
             &:hover {
                 color: #808080;
@@ -72,7 +76,7 @@ header {
     // modifico footer
     footer {
         height: 100px;
-        background-color: #05183c;
+        background-color: $color1;
         width: 100%;
 
         .redes {
@@ -80,7 +84,7 @@ header {
         }
 
         .ft {
-            text-shadow: 2px 2px 3px #444444;
+            text-shadow: 2px 2px 3px $color3;
         }
     }
     // fin footer
@@ -92,7 +96,7 @@ header {
         }
 
         h2{
-            text-shadow: 1px 1px 2px #444444;
+            text-shadow: 1px 1px 2px $color3;
         }   
     }
     // fin section "productos"
@@ -101,7 +105,7 @@ header {
     main{
         .contacto{
             height: 550px;
-            background-color: #101217;
+            background-color: $color2;
         }
     }
     // fin main "contacto"

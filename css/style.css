@@ -4,13 +4,10 @@
     box-sizing: border-box;
 }
 
-/* modifico header */
 header .navColor {
     background-color: #05183c;
 }
-/* fin header */
 
-/* modifico main "index" */
 main .slide1 {
     background-image: url(../assets/img/slide1.jpg);
 }
@@ -28,9 +25,7 @@ main .carousel-item {
     background-position: center;
     background-size: cover;
 }
-/* fin main "index" */
 
-/* modifico section "index" */
 section .bgColor {
     background-color: #101217;
 }
@@ -58,9 +53,7 @@ section p:hover {
     color: #808080;
     transition: 1s;
 }
-/* fin section "index" */
 
-/* modifico footer */
 footer {
     height: 100px;
     background-color: #05183c;
@@ -74,9 +67,7 @@ footer .redes {
 footer .ft {
     text-shadow: 2px 2px 3px #444444;
 }
-/* fin footer */
 
-/* modifico section "productos" */
 section .sectionVN {
     min-height: 1100px;
 }
@@ -84,13 +75,9 @@ section .sectionVN {
 section h2 {
     text-shadow: 1px 1px 2px #444444;
 }
-/* fin section "productos" */
 
-/* modifico main "contacto" */
 main .contacto {
     height: 550px;
     background-color: #101217;
 }
-/* fin main "contacto" */
-
 /*# sourceMappingURL=style.css.map */
