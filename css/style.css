@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* modifico header */
+header .navColor {
+    background-color: #05183c;
+}
+/* fin header */
+
+/* modifico main "index" */
+main .slide1 {
+    background-image: url(../assets/img/slide1.jpg);
+}
+
+main .slide2 {
+    background-image: url(../assets/img/slide2.jpg);
+}
+
+main .slide3 {
+    background-image: url(../assets/img/slide4.jpg);
+}
+
+main .carousel-item {
+    height: 30rem;
+    background-position: center;
+    background-size: cover;
+}
+/* fin main "index" */
+
+/* modifico section "index" */
+section .bgColor {
+    background-color: #101217;
+}
+
+section h1 {
+    text-align: center;
+    text-shadow: 1px 1px 2px #444444;
+}
+
+section h1:hover {
+    color: #808080;
+    transition: 0.4s;
+}
+
+section p {
+    text-align: center;
+    font-size: 18px;
+}
+
+section p::first-letter {
+    font-size: 25px;
+}
+
+section p:hover {
+    color: #808080;
+    transition: 1s;
+}
+/* fin section "index" */
+
+/* modifico footer */
+footer {
+    height: 100px;
+    background-color: #05183c;
+    width: 100%;
+}
+
+footer .redes {
+    color: #ffffff;
+}
+
+footer .ft {
+    text-shadow: 2px 2px 3px #444444;
+}
+/* fin footer */
+
+/* modifico section "productos" */
+section .sectionVN {
+    min-height: 1100px;
+}
+
+section h2 {
+    text-shadow: 1px 1px 2px #444444;
+}
+/* fin section "productos" */
+
+/* modifico main "contacto" */
+main .contacto {
+    height: 550px;
+    background-color: #101217;
+}
+/* fin main "contacto" */
+
+/*# sourceMappingURL=style.css.map */
