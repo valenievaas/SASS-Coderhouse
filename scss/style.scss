@@ -2,6 +2,17 @@ $color1:#05183c;
 $color2:#101217;
 $color3:#444444;
 
+// Tamaño titulos
+$headings: (
+    h1: 40px,
+    h2: 32px,
+    h3: 15px,
+);
+
+$h1: map-get($headings, h1);
+$h2: map-get($headings, h2);
+// fin tamaño titulos
+
 * {
     padding: 0;
     margin: 0;
@@ -40,13 +51,11 @@ header {
     // fin header "index"
 
     // modifico section "index"
+
     section {
 
-        .bgColor {
-            background-color: $color2;
-        }
-
         h1 {
+            font-size: $h1;
             text-align: center;
             text-shadow: 1px 1px 2px $color3;
 
@@ -71,13 +80,22 @@ header {
         }
     }
 
+    .bgColor {
+        background-color: $color2;
+        color: #ffffff;
+    }
+
     // fin section "index"
 
     // modifico footer
+    @mixin sizes($width, $height, $bcolor) {
+        height: $height;
+        width: $width;
+        background-color: $bcolor;  
+    }
+
     footer {
-        height: 100px;
-        background-color: $color1;
-        width: 100%;
+        @include sizes(100%, 100px , $color1);
 
         .redes {
             color: #ffffff;
@@ -96,6 +114,7 @@ header {
         }
 
         h2{
+            font-size: $h2;
             text-shadow: 1px 1px 2px $color3;
         }   
     }
@@ -104,8 +123,8 @@ header {
     // modifico main "contacto"
     main{
         .contacto{
+            @extend .bgColor;
             height: 550px;
-            background-color: $color2;
         }
     }
     // fin main "contacto"
