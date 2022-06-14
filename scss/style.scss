@@ -2,7 +2,7 @@ $color1:#05183c;
 $color2:#101217;
 $color3:#444444;
 
-// Tamaño titulos
+// Tamaño titulos "mapas"
 $headings: (
     h1: 40px,
     h2: 32px,
@@ -11,7 +11,7 @@ $headings: (
 
 $h1: map-get($headings, h1);
 $h2: map-get($headings, h2);
-// fin tamaño titulos
+// fin tamaño titulos "mapas"
 
 * {
     padding: 0;
@@ -19,7 +19,7 @@ $h2: map-get($headings, h2);
     box-sizing: border-box;
 }
 
-// modifico header
+    // modifico header
 header {
     .navColor {
         background-color: $color1;
