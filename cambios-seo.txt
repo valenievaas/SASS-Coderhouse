@@ -1,0 +1,11 @@
+-Agregue en cada html "keywords" diferentes con la etiqueta <meta>
+
+-Agregue en cada html "description" diferentes con la etiqueta <meta>
+
+-Agregue mejores titulos a cada html
+
+-Tenia titulos que comenzaban en h3 sin tener h1 y los cambie
+
+-Agregue un mapa con map-get, Lo agregue en tamaños de titulos
+
+-Extendi una clase y a otra le puse un mixin (en el footer y main)
